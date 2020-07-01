@@ -1,0 +1,50 @@
+! - paspaudus sauktuka mums paruosiamas sablonas
+head - headas skirtas perteikti informacijai kuri nera atvaizduojama isskyrus du elementus: titles, favikonas(logotipas skirtuke)
+zymejimas - Atsidaro <bla bla>...... uzsidaro </bla bla>
+header - headerio tagas. tai tinklapio strukturos dalis (head - galva)
+main - main tagas, tai tinklapio strukturos dalis (pagrindine)
+img - trumpinys nuotraukai ikelti
+nav - iskviesit navigaciniu elemantu grupe
+ul - unredered list, sarasas. gali buti ol - ordered list
+li - list iteams 
+a - nuoroda;
+ <a href=""></a> - tarp kabuciu nurodoma i kur nuoroda veiks, jei adresas nezinomas, deti #. >< tarp ju parasyti pavadinimas mygtuko.
+ div - kuria bloka, labai daznai naudojamas
+ h1 - pagrindine antraste
+ p - paragrafas, naudojamas paprastam tekstui
+ Lorem20 - reiksia sugeneruos loren ir 20 ranfdom zodziu
+ style - shortcutas, ji panaudojus i kabutes pildomi visi stiliaus elementai, neribotai;
+ margin - shortcutas norint atsistumti nuo krasto arba atstumti nuo krasto 
+ float - slinkti. pvz: float left
+ display inline block - 
+ text-align: centre - teksto centravimas, centravima ir kitka kas susyje su tekstu paveldi ir vaikai
+ font size - srifto dydis 
+ color - parasius color nustatoma teksto spalva
+padding - storumas, kiek sesu storas, taip galima keisti mygtuko sonus ir pan> pading-left, padding-right.. ir pan
+first-child
+first-of-type
+last-child
+last-of-type
+nth-child
+nth-of-type
+Suteikti ID - id="unikalusis" viename puslapyje negali kartotis ID daugiau nei viena karta
+klases - stiliaus rinkinis daugeliui pasirinktu elementu pvz: .didziosio (butinai be tarpo) pvz:.fonas {
+    background-color: slateblue;
+text-decoration - galima koreguoti ir keisti texta.
+font-falily - srifto parinkimas
+padding - daryti mygtuka, storinti ir pan.
+border-radius - apvalina, pvz mygtukus. Apvalinimas turi savo ribas. Yra skirtumas tarp pixeliu ir procentu. Max 50proc arba pixeliais, bet maziausios krastines puse.
+line-height = linijos aukstis (tarpai tarp eiluciu)
+display: none = panaikina stiliu...jei suprasi :)
+
+css failo resetinimas, naudojame shortcuta - teve:  body,
+body * {
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
