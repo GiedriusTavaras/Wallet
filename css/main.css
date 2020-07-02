@@ -1,7 +1,11 @@
+body {
+    background-color: cornsilk;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
 .content {
     display: inline-block;
-    width: 800px;
-    margin: 80px calc((100% - 800px) / 2);
+    width: 900px;
+    margin: 80px calc((100% - 900px) / 2);
     background-color: cornsilk;
 
 }
@@ -14,6 +18,22 @@
 .content > .right {
     display: inline-block;
     width: 60%;
-    background-color: cornsilk;
+    padding: 60px 80px 60px 40px;
+    background-color: #fff;
     float: left;
 }
+    .right > .antraste {
+        display: inline-block;
+        line-height: 20px;
+        text-transform: uppercase;
+        font-size: 25px;
+        margin-bottom: 17px;
+
+    }
+    .right > .pastraipa {
+        display: inline-block;
+        line-height: 20px;
+        margin-bottom: 25px;
+        color: #B4BACE;
+
+    }

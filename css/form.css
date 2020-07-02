@@ -1,0 +1,34 @@
+.form {
+    display: inline-block;
+    width: 100%;
+}
+    .form > .form-row {
+        display: inline-block;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+        .form > .form-row > label {
+            display: inline-block;
+            width: 100%;
+            color: #6373AA;
+            text-transform: capitalize;
+            line-height: 20px;
+            margin-bottom: 5px;
+            font-size: 17px;
+        }
+        .form > .form-row > input {
+            display: inline-block;
+            width: 100%;
+            padding: 15px;
+            color: #9FA7C0;
+            font-size: 15px;
+            border-color: #F2F3F7;
+            border-style: double;
+            background-color: #F8F9FC;
+        }
+            .form-row > input:hover {
+                border-color: #7A8DEA;
+            }
+        .form > .form-row :last-child {
+            margin-bottom: 0;
+        }
