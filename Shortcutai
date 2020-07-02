@@ -76,4 +76,9 @@ span - vieno mygtuko elementai
 
 .btn:hover - tai koregavimas mygtuko (paspausto)
 cursor - keisti kurosiu, tai yra pelytes forma, pvz i laikrodi, pirsta ar pan...
+box-shadow - (box-shadow: 5px 5px 5px gray;) elemento seselis, dar hali buti hover - tai po paspaudimo seselis. Nustatymai: 1(i kaire ar i desine), 2(vertikalus), 3(blurinimas), 4(spalva)
+
+position absoliute ir relative - jei pvz noriu ka nors padeti i kama, tai ta kazka nustatau kaip apsoliute, o tevini elementa i kurio kampa noriu deti nustatau kaip relative.
+
+z - index: 1 - pakeicia objekto sluoksni, tai yra ji iskelia auksciau kito arba zemiau
 
