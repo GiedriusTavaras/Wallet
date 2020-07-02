@@ -8,20 +8,96 @@ body {
     margin: 80px calc((100% - 900px) / 2);
     background-color: cornsilk;
 
+    position: relative;
+
 }
 .content > .left {
     display: inline-block;
     width: 40%;
     background-color: cadetblue;
     float: left;
+
+    position: absolute;
+    top: 20px;
+    bottom: 20px;
 }
+    .left > .nkn {
+        display: inline-block;
+        color: white;
+        position: absolute;
+        top: 60px;
+        left: 50px;
+        right: 20px;
+        font-size: 50px;
+    }
+    .left > .wallet {
+        display: inline-block;
+        color: white;
+        position: absolute;
+        top: 120px;
+        left: 50px;
+        right: 20px;
+        font-size: 50px;
+    }
+    .left > .nuorodos {
+        display: inline-block;
+        background-color: green;
+        position: absolute;
+        top: 200px;
+        left: 50px;
+        right: 20px;
+    }
+        .nuorodos > .nuoroda {
+            display: inline-block;
+            text-decoration: none;
+            color: #4882CB;
+            margin-left: 10px;
+
+
+        }
+        .nuorodos > .dot {
+            display: inline-block;
+            height: 12px;
+            width: 12px;
+            background-color: #5093E5;
+            border-radius: 50%;
+            margin-top: 5px;
+            margin-left: 10px;
+    }
+    .left > .logo {
+        display: inline-block;
+        background-color: tomato;
+        position: absolute;
+        bottom: 25px;
+        left: 25px;
+    }
 .content > .right {
     display: inline-block;
     width: 60%;
     padding: 60px 80px 60px 40px;
     background-color: #fff;
-    float: left;
+    float: right;
+
+    position: relative;
 }
+    .xxxx {
+        display: inline-block;
+        height: 80px;
+        width: 80px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 30px;
+        line-height: 70px;
+        color: black;
+        
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+        .xxxx:hover {
+            color: #04048f;
+
+        }
     .right > .antraste {
         display: inline-block;
         line-height: 20px;
