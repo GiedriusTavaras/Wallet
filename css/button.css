@@ -1,0 +1,38 @@
+.mygtukai {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 30px;
+    
+    
+    
+}
+    .mygtukai > .pirmas {
+        display: inline-block;
+        text-decoration: none;
+        color: #B7BBCE;
+    }
+    .mygtukai > .pirmas:hover {
+        color:rgb(4, 4, 143);
+    }
+    .mygtukai > .antras {
+        display: inline-block;
+        float: right;
+        text-decoration: none;
+        color: #B7BBCE;
+    }
+        .mygtukai > .antras:hover {
+            color:rgb(4, 4, 143);
+        }
+
+.btn {
+    display: inline-block;
+    text-transform: uppercase;
+    padding: 12px 50px;
+    color: #ffffff;
+    background-color: #5069E4;
+    border-radius: 4px;
+}
+    .btn:hover {
+        cursor: pointer;
+        background-color: rgb(4, 4, 143);
+    }

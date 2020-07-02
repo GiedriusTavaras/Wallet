@@ -50,3 +50,30 @@ body * {
 
 paddinga ir panasius galima rasyti pvz 2 skaicius. vienas lemia virsu ir apacia, o antras sonus
 
+#fff - spalva, jeigu spalva yra pvz: ff9922, tai galima rasyti f92
+(.form-row*3>label+imput)+.form-row tai rasymo trumpinys, kuris reiskia: <div class="form-row">
+                    <label for=""></label>
+                    <imput></imput>
+                </div>
+                <div class="form-row">
+                    <label for=""></label>
+                    <imput></imput>
+                </div>
+                <div class="form-row">
+                    <label for=""></label>
+                    <imput></imput>
+                </div>
+                <div class="form-row"></div>
+
+font-weight - srifto storis
+
+<div class="form-row">
+                    <label for="">Confirm Password</label>
+                    <input type="password" placeholder="Confirm your password">
+                </div> taip padaromas laukelis kuriame reikia irasyti savo pasworda
+
+span - vieno mygtuko elementai
+
+.btn:hover - tai koregavimas mygtuko (paspausto)
+cursor - keisti kurosiu, tai yra pelytes forma, pvz i laikrodi, pirsta ar pan...
+
