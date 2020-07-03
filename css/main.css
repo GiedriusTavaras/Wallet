@@ -2,24 +2,35 @@ body {
     background-color: cornsilk;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+.background {
+    height: 105vh;
+    background-image: url(../img/background2.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-position: center;
+}
+
 .content {
     display: inline-block;
     width: 900px;
-    margin: 80px calc((100% - 900px) / 2);
-    background-color: cornsilk;
-
-    position: relative;
-
+    position: absolute;
+    margin-top: 20px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 .content > .left {
     display: inline-block;
     width: 40%;
     background-color: cadetblue;
     float: left;
-
     position: absolute;
     top: 20px;
     bottom: 20px;
+    background-image: url(../img/leftpfoto.png);
+    background-size: cover;
+    background-position: left;
 }
     .left > .nkn {
         display: inline-block;
@@ -41,7 +52,6 @@ body {
     }
     .left > .nuorodos {
         display: inline-block;
-        background-color: green;
         position: absolute;
         top: 200px;
         left: 50px;
@@ -57,8 +67,8 @@ body {
         }
         .nuorodos > .dot {
             display: inline-block;
-            height: 12px;
-            width: 12px;
+            height: 8px;
+            width: 8px;
             background-color: #5093E5;
             border-radius: 50%;
             margin-top: 5px;
@@ -66,7 +76,6 @@ body {
     }
     .left > .logo {
         display: inline-block;
-        background-color: tomato;
         position: absolute;
         bottom: 25px;
         left: 25px;
@@ -113,3 +122,12 @@ body {
         color: #B4BACE;
 
     }
+
+@media (max-width: 900px){
+    .content > .left {
+        display: none;
+    }
+    .content > .right{
+        width: 400px;
+    }
+}

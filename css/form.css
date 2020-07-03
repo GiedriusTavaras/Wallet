@@ -20,14 +20,15 @@
             display: inline-block;
             width: 100%;
             padding: 15px;
-            color: #9FA7C0;
+            color: #6473AA;
             font-size: 15px;
             border-color: #F2F3F7;
             border-style: double;
             background-color: #F8F9FC;
         }
-            .form-row > input:hover {
-                border-color: #7A8DEA;
+        .form > .form-row > input:focus {
+            background-color:#EDEDF9;
+            outline: 1px solid #8394EB;
             }
         .form > .form-row :last-child {
             margin-bottom: 0;
