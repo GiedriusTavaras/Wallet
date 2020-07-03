@@ -12,7 +12,7 @@
         color: #B7BBCE;
     }
     .mygtukai > .pirmas:hover {
-        color:rgb(4, 4, 143);
+        color: #6474AA;
     }
     .mygtukai > .antras {
         display: inline-block;
@@ -21,7 +21,7 @@
         color: #B7BBCE;
     }
         .mygtukai > .antras:hover {
-            color:#04048f;
+            color: #6474AA;
         }
 
 .btn {
@@ -34,5 +34,5 @@
 }
     .btn:hover {
         cursor: pointer;
-        background-color: rgb(4, 4, 143);
+        background-color: #6474AA;
     }

@@ -82,3 +82,8 @@ position absoliute ir relative - jei pvz noriu ka nors padeti i kama, tai ta kaz
 
 z - index: 1 - pakeicia objekto sluoksni, tai yra ji iskelia auksciau kito arba zemiau
 
+height: skaicius vh - view height reiskia
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); - tokia kombinacija leidzia visada ojekta pastatyti i centravima
