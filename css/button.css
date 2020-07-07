@@ -2,9 +2,6 @@
     display: inline-block;
     width: 100%;
     margin-bottom: 30px;
-    
-    
-    
 }
     .mygtukai > .pirmas {
         display: inline-block;
@@ -36,3 +33,4 @@
         cursor: pointer;
         background-color: #6474AA;
     }
+

@@ -123,11 +123,32 @@ body {
 
     }
 
-@media (max-width: 900px){
-    .content > .left {
+@media (max-width: 1000px){
+    .content {
+        width: 700px;
+        margin: 0, calc(50% - 500px);
+    }
+    .content > .left > .nuorodos > .nuoroda {
+        display: block;
+        margin-top: 10px;
+    }
+    .content > .left > .nuorodos > .dot {
         display: none;
     }
-    .content > .right{
-        width: 400px;
-    }
-}
+    @media (max-width: 800px){
+        .content {
+            display: block;
+            width: 600px;
+            margin: 0, calc(50% - 300px);
+        }
+        .content > .right {
+            padding: 40px 60px 40px 20px;
+        }
+        .content > .right > .xxxx {
+            display: inline-block;
+            height: 60px;
+            width: 60px;
+        }
+        .content > .right > .antraste {
+            font-size: 20px;
+        }
